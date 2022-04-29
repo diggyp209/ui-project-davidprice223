@@ -1,0 +1,65 @@
+#uiboX {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:500px;
+    width:150px;
+    
+}
+    
+
+#container {
+
+    
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    min-width: 50%;
+    min-height:60%;
+    border-radius: 10px;
+    background-color:rgb(46, 46, 155);
+}
+    
+    
+    
+    
+.iNputbox {
+    margin: 10px;
+    border-radius: 10px;
+    
+    
+}
+ h1 { text-align: center;
+     font-size:xx-large;
+     font-style:normal;
+     font-weight:bolder;
+     
+     
+     
+
+ }
+ .buTTon {
+    
+    text-align: center;
+    color: rgb(245, 252, 252);
+    background-color: rgb(19, 53, 204);
+    border-radius: 5px;
+    padding: 5px 10px 8px 10px;
+}
+
+
+.buTTon:hover {
+
+     animation-name: background-color;
+     animation-duration: 500ms;
+     animation-fill-mode: forwards;
+ }
+
+ @keyframes background-color {
+     100% {
+        background-color:#4791d0;
+     }
+ }
+
